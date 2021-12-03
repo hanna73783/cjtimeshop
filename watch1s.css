@@ -1,0 +1,102 @@
+h1 {
+font-size: 4rem;
+color: blue;
+text-shadow: 3px 2px 1px purple;
+background-color: aquamarine;
+text-align: center;
+border: 2px solid blue;
+letter-spacing: 3px;
+}
+
+body {
+background-color: blue;
+}
+
+
+nav {
+display: flex;
+justify-content: center;
+flex-direction: row;
+}
+
+
+main {
+display:flex;
+}
+
+.serv {
+margin: auto;
+width: 33%;
+padding: 10px;
+
+}
+
+.navi {
+  font-size: 24px;
+  color: ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+border-right: 1px solid blue;
+border-left: 1px solid blue;
+border-top: 1px solid blue;
+border-bottom: 1px solid blue;
+padding: 5px;
+background-color: aquamarine;
+text-decoration: none;
+border-collapse: collapse;
+}
+
+a:hover.navi {
+color: green;
+background-color: yellow;
+}
+
+div.signup {
+display: block;
+background-color: lightgray;
+padding: 5px;
+text-align: center;
+}
+
+input {
+  margin: 5px;
+
+}
+
+legend {
+  background-color: gray;
+  color: white;
+  padding: 5px 10px;
+}
+
+.icons {
+background-color: darkgrey;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 20px;
+padding: 20px;
+}
+.slider {
+width: max-width;
+height: 400px;
+background: url(clock1.jpg);
+margin: 100px auto;
+animation: slide 20s infinite;
+
+}
+@keyframes slide{
+100%{
+background: url(clock1.jpg);
+}
+50%{
+background: url(clock2.jpg);
+}
+75%{
+background: url(smartwatch.jpg);
+}
+25%{
+background: url(repair1.jpg);
+background-repeat: no-repeat;
+}
