@@ -8,8 +8,14 @@ border: 2px solid blue;
 letter-spacing: 3px;
 }
 
+h2 {
+color: blue;
+font-size: 3rem;
+text-shadow: 3px 2px 2px purple;
+}
+
 body {
-background-color: blue;
+background: url(https://upload.wikimedia.org/wikipedia/commons/3/37/Clock.gif) no-repeat center fixed;
 }
 
 
@@ -19,21 +25,19 @@ justify-content: center;
 flex-direction: row;
 }
 
-
 main {
-display:flex;
+display: flex;
 }
 
-.serv {
-margin: auto;
-width: 33%;
-padding: 10px;
-
+main > * {
+flex-basis: 100%;
 }
+
+
 
 .navi {
   font-size: 24px;
-  color: ffffff;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -45,6 +49,7 @@ padding: 5px;
 background-color: aquamarine;
 text-decoration: none;
 border-collapse: collapse;
+width: 100%;
 }
 
 a:hover.navi {
@@ -78,25 +83,7 @@ align-items: center;
 margin-top: 20px;
 padding: 20px;
 }
-.slider {
-width: max-width;
-height: 400px;
-background: url(clock1.jpg);
-margin: 100px auto;
-animation: slide 20s infinite;
 
-}
-@keyframes slide{
-100%{
-background: url(clock1.jpg);
-}
-50%{
-background: url(clock2.jpg);
-}
-75%{
-background: url(smartwatch.jpg);
-}
-25%{
-background: url(repair1.jpg);
-background-repeat: no-repeat;
+footer {
+width: 100%;
 }
